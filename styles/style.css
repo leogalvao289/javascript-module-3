@@ -1,0 +1,49 @@
+body {
+  background: white;
+}
+
+.list-group li {
+  font-weight: 900;
+  list-style: none;
+  font-size: 22px;
+  padding: 10px;
+}
+ 
+.card-body {
+  background: #ffff;
+}
+.card {
+  width: 250px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 5px solid white;
+  box-shadow: 0 10px 20px;
+}
+.card-img-top {
+  border-top-left-radius: calc(1rem - 1px);
+  border-top-right-radius: calc(1rem - 1px);
+}
+.card-body {
+  background: #bfdcb3;
+  color: white;
+}
+.header-episode {
+  max-width: 1020px;
+  margin: 5px;
+}
+.header-episode h1 {
+  color: #bfdcb3;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+.header-episode p {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+ 
+.content-episode {
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
